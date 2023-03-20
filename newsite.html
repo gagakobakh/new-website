@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap">
+    <link rel="stylesheet" href=""https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
+</head>
+<body>
+<header class="tesliheader">
+    <div class="forbutton">
+    <button class="forlines" onclick="toggleMenu()">
+        
+        <span class="lines">
+    
+        </span>
+        <span class="lines">
+            
+        </span>
+        <span class="lines">
+            
+        </span>
+        
+        
+    </button>
+</div>
+    <div class="formenu">
+    <nav class="menu">
+        <button class="forlines closer" onclick="toggleMenu()">X</button>
+        <ul class="listformenu">
+          <li class="liformenu"><a href="#" class="aforlist">Blank</a></li>
+          <li class="liformenu"><a href="#" class="aforlist">Blank</a></li>
+          <li class="liformenu"><a href="#" class="aforlist">Blank</a></li>
+          <li class="liformenu"><a href="#" class="aforlist">Blank</a></li>
+        </ul>
+        
+    
+      </nav>
+    </div>
+
+
+
+    <img src="logo.png" alt="frankocean" class="picture1"  id="spin-image">
+
+    <a href="https://www.youtube.com/@blonded" target="_blank"> <img src="blonded.png" alt="blonded" class="blonded"></a>
+
+
+</header>
+<main>
+<div class="header-image">
+
+    
+
+</div>
+
+<div class="boysdontcry">
+  <div class="imagebackground2">
+  <img src="" alt="" class="thisistheimag">
+  </div>
+  <div class="fortext">
+    <h1 class="fortheboysdontcry">
+      Boys Don't Cry-Frank ocean
+    </h1>
+    <p class="pforboys">
+      It wasn't just music Frank Ocean was busying himself with during 2016. When Blonde released back in April, Frank also made his first foray into the magazine world with Boys Don't Cry — a glossy, 360-page companion piece featuring contributions from the likes of Kanye West, A$AP Rocky and Tyler, the Creator
+    </p>
+
+    <img src="boyscar.svg" alt="boys" class="boyscar">
+
+  </div>
+  
+  
+</div>
+
+
+
+<div class="image-container">
+  <div class="imagebackground3">
+    
+  </div>
+  <div class="imagebackground4">
+    
+  </div>
+  
+  </div>
+
+  <div class="divforcars">
+    <span class="cars one" onmouseover="showImage1()">CARS!</span>
+    <span class="cars two" onmouseover="showImage2()">CARS!</span>
+    <span class="cars three"onmouseover="showImage3()">CARS!</span>
+    <span class="cars four"onmouseover="showImage4()">CARS!</span>
+    <span class="cars fith"onmouseover="showImage5()">CARS!</span>
+
+    </div>
+<div class="carpicture">
+  <img src="franks-face.svg" alt="ocean" id="image11">
+  <img src="blackcar.svg" alt="ocean" id="image12">
+  <img src="undies.svg" alt="ocean" id="image13">
+  
+</div>
+<div id="image14">
+  <div class="thiisimage">
+
+  </div>
+  <div class="thisismanyimages">
+    <img src="dripping.png" alt="" class="newoness firstpicc">
+    <img src="boylies.png" alt="" class="newoness seconpicc">
+    <img src="fish.png" alt="" class="newoness thrdpicc">
+    <img src="holdhands.png" alt="" class="newoness forthpicc">
+    <img src="idk.png" alt="" class="newoness fifthpicc">
+    <img src="mandarin.png" alt="" class="newoness sixthpicc">
+    <img src="manjump.png" alt="" class="newoness seventhpicc">
+    </div>
+  
+</div>
+
+
+</main>
+</body>
+<script>
+function toggleMenu() {
+  var menu = document.querySelector('.menu');
+  if (menu.classList.contains('open')) {
+    menu.classList.remove('open');
+  } else {
+    menu.classList.add('open');
+  }
+}
+const spinImage = document.getElementById('spin-image');
+
+spinImage.addEventListener('click', () => {
+  spinImage.classList.add('rotate');
+  setTimeout(() => {
+    spinImage.classList.remove('rotate');
+  }, 1000);
+});
+function showImage1() {
+  document.getElementById("image11").style.display = "block";
+ 
+
+}
+function showImage2() {
+  document.getElementById("image12").style.display = "block";
+
+
+}
+function showImage3() {
+
+  document.getElementById("image13").style.display = "block";
+
+
+}
+function showImage4() {
+
+document.getElementById("image14").style.display = "block";
+
+
+}
+function showImage5() {
+
+document.getElementById("image15").style.display = "block";
+
+
+}
+
+</script>
+</html>

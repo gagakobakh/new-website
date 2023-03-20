@@ -1,0 +1,317 @@
+body{
+
+}
+.forlines{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    
+
+}
+.forbutton{
+    width: 200px;
+}
+.lines{
+    width: 5px;
+    height: 50px;
+    background-color: black;
+    transform: skew(-20deg);
+    
+}
+
+.menu{
+    position: fixed;
+    top: 0;
+    left: -200px;
+    width: 200px;
+    height: 100%;
+    background-color:white;    ;
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.menu.open{
+    left: 0;
+}
+.listformenu{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.closer{
+    font-size: 50px;
+    align-self: center;
+}
+.liformenu{
+    list-style: none;
+    margin-top: 10px;
+
+}
+.aforlist{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+.tesliheader{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  
+  
+}
+   
+
+.picture1{
+    width: 100px;
+    height: 100px;
+  
+    margin: auto;
+  
+}
+#spin-image {
+    transition: transform 1s ease;
+  }
+  
+  .rotate {
+    transform: rotate(360deg);
+  }
+
+  .blonded{
+    width: 200px;
+    height: 100px;
+  }
+
+.header-image {
+    margin-top: 20px;
+    background-image: url(BDC-019.svg);
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    height: 600px;
+    position: relative;
+  }
+
+
+    
+
+
+.boysdontcry{
+    max-width:  1200px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    margin: 30px auto;
+    background-color: black;
+   
+}
+.imagebackground2{
+    background-image: url(weirdface.svg);
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    width: 50%;
+}
+
+.fortext{
+    height:800px ;
+    width: 50%;
+    float: right;
+    padding: 50px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.fortheboysdontcry{
+color: #DCDCDC	;
+font-family: fantasy;
+}
+
+.pforboys{
+    
+    color: #DCDCDC	;
+    padding: 20px;
+    margin: 20px;
+    font-family: 'Open sans', sans-serif;
+}
+
+.boyscar{
+    max-width: 500px;
+    margin-top: 50px;
+}
+
+body{
+    background-color: #DCDCDC	;
+}
+.image-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 10px auto;
+  }
+  
+  .image-container img {
+    width: 50%;
+    height: 100%;
+   display: block;
+  }
+
+
+
+  .image-container{
+    max-width:  1000px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    margin: 30px auto;
+    background-color: black;
+   
+}
+
+.imagebackground3{
+    background-image: url(headset.svg);
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    width: 50%;
+}
+
+.imagebackground4{
+    background-image: url(cool\ hair.svg);
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    width: 50%;
+}
+
+.divforcars{
+    max-width: 300px;
+    margin: 10px auto;
+    font-family: fantasy;
+}
+
+.cars{
+    margin-left: 10px;
+    display: block;
+}
+
+.one{
+    font-size: 100px;
+}
+.two{
+    font-size: 70px;
+}
+.three{
+    font-size: 50px;
+}
+.four{
+    font-size: 30px;
+}
+.fith{
+    font-size: 20px;
+}
+span:hover {
+    color: #FF1493;
+
+  }
+
+
+  
+.carpicture{
+    margin: 20px auto;
+    background-image: url(car.svg);
+    background-size: cover;
+    background-position: center;
+    max-width: 1200px;
+    height: 1000px;
+    position: relative;
+
+}
+
+#image11{
+    max-width: 80%;
+    display: none;
+    transition: opacity 1s ease-in-out;
+
+
+}
+
+#image12{
+    max-width: 30%;
+    margin-left: 500px;
+    display: none;
+
+}
+
+#image13{
+    max-width: 30%;
+    margin-left: 100px;
+    display: none;
+
+}
+
+
+#image14{
+    max-width:  1200px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 200px;
+    margin: 30px auto;
+    background-color: black;
+    display: block;
+    
+
+   
+}
+.thiisimage{
+    background-image: url(mirrorlook.svg);
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    width: 100%;
+}
+.thisismanyimages{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 50%;
+    /* height: 800px; */
+    
+}
+.newoness{
+    max-width: 25%;
+    padding: 10px;
+
+}
+
+.newoness:hover{
+    max-width:28%;
+    height: 150px;
+
+}
+#image15{
+    max-width: 100%;
+    display: none;
+    margin: 0 auto;
+}
+
+  
+  
+  
+  
+  
+
