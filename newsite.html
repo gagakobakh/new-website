@@ -31,10 +31,10 @@
     <nav class="menu">
         <button class="forlines closer" onclick="toggleMenu()">X</button>
         <ul class="listformenu">
-          <li class="liformenu"><a href="#" class="aforlist">Blank</a></li>
-          <li class="liformenu"><a href="#" class="aforlist">Blank</a></li>
-          <li class="liformenu"><a href="#" class="aforlist">Blank</a></li>
-          <li class="liformenu"><a href="#" class="aforlist">Blank</a></li>
+          <li class="liformenu"><a href="#" class="aforlist">IIII</a></li>
+          <li class="liformenu"><a href="#" class="aforlist">AMMM</a></li>
+          <li class="liformenu"><a href="#" class="aforlist">SUPERRR</a></li>
+          <li class="liformenu"><a href="#" class="aforlist">BOREEED</a></li>
         </ul>
         
     
@@ -115,8 +115,16 @@
     <img src="manjump.png" alt="" class="newoness seventhpicc">
     </div>
   
-</div>
 
+
+
+</div>
+<div class="text-container">
+  <div class="left-text ">  Still, I'll always </div>
+  <div class="right-text ">   Be there for you</div>
+  
+
+</div>
 
 </main>
 </body>
@@ -165,6 +173,38 @@ document.getElementById("image15").style.display = "block";
 
 
 }
+
+var leftText = document.querySelector('.left-text');
+var rightText = document.querySelector('.right-text');
+
+function checkPosition() {
+  var leftPosition = leftText.getBoundingClientRect().top;
+  var rightPosition = rightText.getBoundingClientRect().top;
+  var windowHeight = window.innerHeight;
+  if (leftPosition < windowHeight && leftPosition > 0) {
+    leftText.classList.add('show');
+    leftText.classList.remove('hide');
+  } else {
+    leftText.classList.add('hide');
+    leftText.classList.remove('show');
+  }
+  if (rightPosition < windowHeight && rightPosition > 0) {
+    rightText.classList.add('show');
+    rightText.classList.remove('hide');
+  } else {
+    rightText.classList.add('hide');
+    rightText.classList.remove('show');
+  }
+}
+
+window.addEventListener('scroll', function() {
+  checkPosition();
+});
+
+window.addEventListener('resize', function() {
+  checkPosition();
+});
+
 
 </script>
 </html>

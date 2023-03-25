@@ -312,6 +312,65 @@ span:hover {
   
   
   
+.text-container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    
+  }
   
+  .left-text {
+    position: absolute;
+    top: 20%;
+    font-size: 4rem;
+    font-weight: bold;
+    
+    transition: all 2s;
+  }
+  .right-text{
+    position: absolute;
+    top: 30%;
+    font-size: 4rem;
+    font-weight: bold;
+    color: #FF1493;
+    transition: all 4s;
+  }
+  .secondone{
+    top:70%;
+  }
   
+  .left-text {
+    left: 0;
+    font-family: fantasy;
 
+  }
+  
+  .right-text {
+    right: 0;
+    font-family: fantasy;
+
+  }
+  
+  .left-text.show {
+    opacity: 1;
+    transform: translateX(590px);
+  }
+  
+  .right-text.show {
+    opacity: 1;
+    transform: translateX(-546px);
+  }
+  
+  .left-text.hide {
+   
+    transform: translateX(-1000%);
+  }
+  
+  .right-text.hide {
+  
+    transform: translateX(1000%);
+  }
+
+
+
+  
